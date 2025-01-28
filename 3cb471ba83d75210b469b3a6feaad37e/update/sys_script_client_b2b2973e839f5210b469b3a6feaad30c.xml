@@ -4,11 +4,11 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>date</field>
+        <field>course</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validate Course Schedule Date</name>
+        <name>Validate Course Schedule Course</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (newValue === '') {
@@ -37,19 +37,19 @@
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-28 16:22:45</sys_created_on>
+        <sys_created_on>2025-01-28 18:26:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5c847ef6831f5210b469b3a6feaad34c</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_name>Validate Course Schedule Date</sys_name>
+        <sys_id>b2b2973e839f5210b469b3a6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Course Schedule Course</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
-        <sys_update_name>sys_script_client_5c847ef6831f5210b469b3a6feaad34c</sys_update_name>
+        <sys_update_name>sys_script_client_b2b2973e839f5210b469b3a6feaad30c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 18:23:45</sys_updated_on>
+        <sys_updated_on>2025-01-28 18:26:52</sys_updated_on>
         <table>x_1593190_course_0_course_schedule</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

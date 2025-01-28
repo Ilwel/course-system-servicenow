@@ -3,92 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>1a8783fe835f5210b469b3a6feaad38d</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>6a8757b283df5210b469b3a6feaad3a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>date</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <element>course</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>128783fe835f5210b469b3a6feaad38e</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>6e8757b283df5210b469b3a6feaad3a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>course</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <element>instructor</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>168783fe835f5210b469b3a6feaad38e</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>628757b283df5210b469b3a6feaad3a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>vacancies</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <element>date</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>1a8783fe835f5210b469b3a6feaad38e</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>668757b283df5210b469b3a6feaad3a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <element>vacancies</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>1e8783fe835f5210b469b3a6feaad38e</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>6a8757b283df5210b469b3a6feaad3a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da8747be835f5210b469b3a6feaad36d</list_id>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
-            <sys_id>128783fe835f5210b469b3a6feaad38f</sys_id>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>6e8757b283df5210b469b3a6feaad3a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1593190_course_0_course_schedule" element="NULL" name="x_1593190_course_0_course_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2e8757b283df5210b469b3a6feaad3a4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
+            <sys_id>ea87d7f283df5210b469b3a6feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 17:37:59</sys_created_on>
+            <sys_created_on>2025-01-28 18:47:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>da8747be835f5210b469b3a6feaad36d</sys_id>
+            <sys_id>2e8757b283df5210b469b3a6feaad3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593190_course_0_course_schedule</sys_name>
             <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
@@ -113,7 +128,7 @@
             <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
             <sys_update_name>sys_ui_list_x_1593190_course_0_course_schedule_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 17:37:59</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:47:54</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

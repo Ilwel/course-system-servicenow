@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1593190_course_0.CouseScheduleAjaxUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CouseScheduleAjaxUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CouseScheduleAjaxUtils = Class.create();
+CouseScheduleAjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+		getEncodedQuery: function(){
+		var encodedQuery = this.getParameter("sysparm_encoded_query");
+		var results = [];
+		gs.info("script está sendo triggado?", "ilwel debug");
+		gs.info(encodedQuery, "ilwel debug");
+		if(encodedQuery){
+			var gr = new GlideRecord("x_1593190_course_0_course_schedule");
+			gr.addEncodedQuery(encodedQuery);
+			gr.query();
+			while(gr.next()){
+				gs.info("trouxe resultados");
+				gs.info(gr.course.name, "ilwel debug");
+				results.push({
+					sys_id: gr.sys_id.toString(),
+					course: gr.course.name.toString()
+				});
+			}
+			return JSON.stringify(results);
+		}
+		return "something";
+	},
+
+    type: 'CouseScheduleAjaxUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 16:12:02</sys_created_on>
+        <sys_id>a8b3f63683db5210b469b3a6feaad337</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>CouseScheduleAjaxUtils</sys_name>
+        <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+        <sys_update_name>sys_script_include_a8b3f63683db5210b469b3a6feaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 17:45:30</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a8b3f63683db5210b469b3a6feaad337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 16:12:01</sys_created_on>
+        <sys_id>dfd3b6b6831f5210b469b3a6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 16:12:01</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Name" language="en" table="x_1593190_course_0_course">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_1593190_course_0_course</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-28 11:43:16</sys_created_on>
+            <sys_id>ae56f13e83d75210b469b3a6feaad366</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+            <sys_update_name>sys_documentation_x_1593190_course_0_course_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-28 11:43:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

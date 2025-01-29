@@ -20,9 +20,50 @@ CourseSystemUtils.prototype = {
 		gr.addEncodedQuery("group=7981927e835b5210b469b3a6feaad3f9");
 		gr.query();
 		while(gr.next()){
-			listOfProfessors.push(gr.user.sys_id);
+			listOfProfessors.push(gr.user.sys_id.toString());
 		}
 		return "sys_idIN" + listOfProfessors.join(",");
+	},
+
+	refQualCourseSchedules: function(){
+		let listOfRegistrationRequests = [];
+		let grAllregistrationrequests = new GlideRecord("x_1593190_course_0_course_registration_request");
+		grAllregistrationrequests.query();
+
+		while(grAllregistrationrequests.next()){
+			listOfRegistrationRequests.push({
+				student_sys_id: grAllregistrationrequests.opened_by.sys_id.toString(),
+				course_sys_id: grAllregistrationrequests.course_schedule.course.sys_id.toString(),
+				course_schedule_sys_id: grAllregistrationrequests.course_schedule.sys_id.toString(),
+				course_schedule_state: grAllregistrationrequests.state.toString()
+			});
+		}
+
+		let listOfCourseSchedules = [];
+		let grCourseSchedule = new GlideRecord("x_1593190_course_0_course_schedule");
+		let grMyRegistrationRequests = new GlideRecord("x_1593190_course_0_course_registration_request");
+		grMyRegistrationRequests.addQuery("opened_by", gs.getUserID());
+		grMyRegistrationRequests.query();
+		
+		grCourseSchedule.addEncodedQuery("date>javascript:gs.endOfToday()^instructor!=javascript:gs.getUserID()");
+		grCourseSchedule.query();
+
+		while(grCourseSchedule.next()){
+			let countOfRequests = listOfRegistrationRequests.filter(item => item.course_schedule_sys_id == grCourseSchedule.sys_id.toString() && item.course_schedule_state != "4");
+			let countOfMyRequests = listOfRegistrationRequests.filter(item => item.student_sys_id == gs.getUserID().toString() && grCourseSchedule.course.sys_id.toString() == item.course_sys_id);
+			if(countOfRequests.length < grCourseSchedule.vacancies && countOfMyRequests.length < 3){
+				listOfCourseSchedules.push(grCourseSchedule.sys_id.toString());
+			}
+		}
+
+		while(grMyRegistrationRequests.next()){
+			listOfCourseSchedules = listOfCourseSchedules.filter(item => item != grMyRegistrationRequests.course_schedule.sys_id.toString());
+		}
+
+
+
+		return "sys_idIN" + listOfCourseSchedules.join(',');
+
 	},
 
     type: 'CourseSystemUtils'
@@ -31,14 +72,14 @@ CourseSystemUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 14:06:00</sys_created_on>
         <sys_id>25f45efe835b5210b469b3a6feaad310</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>CourseSystemUtils</sys_name>
         <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
         <sys_update_name>sys_script_include_25f45efe835b5210b469b3a6feaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 14:22:54</sys_updated_on>
+        <sys_updated_on>2025-01-29 00:50:43</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>25f45efe835b5210b469b3a6feaad310</id>

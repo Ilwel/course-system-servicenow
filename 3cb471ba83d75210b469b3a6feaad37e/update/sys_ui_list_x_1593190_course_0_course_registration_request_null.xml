@@ -3,92 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
+            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35a7384b83979210b469b3a6feaad3eb</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>cef9b5be83d75210b469b3a6feaad333</sys_id>
+            <sys_created_on>2025-01-29 01:47:49</sys_created_on>
+            <sys_id>bda7384b83979210b469b3a6feaad3ec</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
+            <sys_updated_on>2025-01-29 01:47:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
+            <element>opened_by</element>
+            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35a7384b83979210b469b3a6feaad3eb</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>c6f9b5be83d75210b469b3a6feaad334</sys_id>
+            <sys_created_on>2025-01-29 01:47:49</sys_created_on>
+            <sys_id>b5a7384b83979210b469b3a6feaad3ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
+            <sys_updated_on>2025-01-29 01:47:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
+            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35a7384b83979210b469b3a6feaad3eb</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>caf9b5be83d75210b469b3a6feaad334</sys_id>
+            <sys_created_on>2025-01-29 01:47:49</sys_created_on>
+            <sys_id>b9a7384b83979210b469b3a6feaad3ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
+            <sys_updated_on>2025-01-29 01:47:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
+            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">35a7384b83979210b469b3a6feaad3eb</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>cef9b5be83d75210b469b3a6feaad334</sys_id>
+            <sys_created_on>2025-01-29 01:47:49</sys_created_on>
+            <sys_id>bda7384b83979210b469b3a6feaad3ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>c2f9b5be83d75210b469b3a6feaad335</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="x_1593190_course_0_course_registration_request" element="NULL" name="x_1593190_course_0_course_registration_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4ef9b5be83d75210b469b3a6feaad332</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
-            <sys_id>c6f9b5be83d75210b469b3a6feaad335</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
+            <sys_updated_on>2025-01-29 01:47:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-28 11:59:05</sys_created_on>
+            <sys_created_on>2025-01-29 01:47:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4ef9b5be83d75210b469b3a6feaad332</sys_id>
+            <sys_id>35a7384b83979210b469b3a6feaad3eb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593190_course_0_course_registration_request</sys_name>
             <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
@@ -113,7 +83,7 @@
             <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
             <sys_update_name>sys_ui_list_x_1593190_course_0_course_registration_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-28 11:59:05</sys_updated_on>
+            <sys_updated_on>2025-01-29 01:47:49</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

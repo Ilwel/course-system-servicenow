@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Course Registration Request">92785f3683df5210b469b3a6feaad3c4</catalog_item>
+        <catalog_variable>IO:58c99bb683df5210b469b3a6feaad339</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 00:35:58</sys_created_on>
+        <sys_id>11c0bd5f835fd210b469b3a6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>course_schedule</sys_name>
+        <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_11c0bd5f835fd210b469b3a6feaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 00:35:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory Fields">65a0f95f835fd210b469b3a6feaad391</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>course_schedule</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=11c0bd5f835fd210b469b3a6feaad3d6"/>
+</record_update>

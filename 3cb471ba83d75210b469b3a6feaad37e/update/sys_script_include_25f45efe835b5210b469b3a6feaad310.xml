@@ -25,6 +25,17 @@ CourseSystemUtils.prototype = {
 		return "sys_idIN" + listOfProfessors.join(",");
 	},
 
+	refQualStudent: function(){
+		let listOfStudents = []
+		let gr = new GlideRecord("sys_user_grmember");
+		gr.addEncodedQuery("group=ada2d2be835b5210b469b3a6feaad3a6");
+		gr.query();
+		while(gr.next()){
+			listOfStudents.push(gr.user.sys_id.toString());
+		}
+		return "sys_idIN" + listOfStudents.join(",");
+	},
+
 	refQualCourseSchedules: function(){
 		let listOfRegistrationRequests = [];
 		let grAllregistrationrequests = new GlideRecord("x_1593190_course_0_course_registration_request");
@@ -72,14 +83,14 @@ CourseSystemUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 14:06:00</sys_created_on>
         <sys_id>25f45efe835b5210b469b3a6feaad310</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>CourseSystemUtils</sys_name>
         <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
         <sys_update_name>sys_script_include_25f45efe835b5210b469b3a6feaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 00:50:43</sys_updated_on>
+        <sys_updated_on>2025-01-30 00:45:28</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>25f45efe835b5210b469b3a6feaad310</id>

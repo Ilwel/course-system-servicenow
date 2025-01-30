@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3df97932831b5210b469b3a6feaad331" extends="task" label="Course Registration Request" max_length="40" name="x_1593190_course_0_course_registration_request" type="collection">
         <element label="Course Schedule" max_length="32" name="course_schedule" reference="x_1593190_course_0_course_schedule" type="reference"/>
-        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element label="Student" max_length="32" name="student" reference="sys_user" reference_qual="javascript:new x_1593190_course_0.CourseSystemUtils().refQualStudent();" type="reference" use_reference_qualifier="advanced"/>
         <element label="Reproval Reason" max_length="456" name="reproval_reason" type="string"/>
     </element>
 </database>

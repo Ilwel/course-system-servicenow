@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Course Registration Request">92785f3683df5210b469b3a6feaad3c4</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 20:15:25</sys_created_on>
+        <sys_id>b6084f7783139210b469b3a6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Registration Request.Course System Students</sys_name>
+        <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_b6084f7783139210b469b3a6feaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:15:25</sys_updated_on>
+        <user_criteria display_value="Course System Students">c9188f7783139210b469b3a6feaad353</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

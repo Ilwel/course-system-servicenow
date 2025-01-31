@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1593190_course_0_course_registration_request">state=1^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Requested</label>
+        <name>Requested</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 12:42:50</sys_created_on>
+        <sys_id>d5a0a5f3831b5210b469b3a6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested</sys_name>
+        <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+        <sys_update_name>sys_process_flow_d5a0a5f3831b5210b469b3a6feaad3e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 12:42:50</sys_updated_on>
+        <table>x_1593190_course_0_course_registration_request</table>
+    </sys_process_flow>
+</record_update>

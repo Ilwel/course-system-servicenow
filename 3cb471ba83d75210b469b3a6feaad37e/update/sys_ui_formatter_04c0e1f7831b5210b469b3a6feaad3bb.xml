@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 12:42:50</sys_created_on>
+        <sys_id>04c0e1f7831b5210b469b3a6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="Course System" source="x_1593190_course_0">3cb471ba83d75210b469b3a6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course System">3cb471ba83d75210b469b3a6feaad37e</sys_scope>
+        <sys_update_name>sys_ui_formatter_04c0e1f7831b5210b469b3a6feaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 12:42:50</sys_updated_on>
+        <table>x_1593190_course_0_course_registration_request</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>
